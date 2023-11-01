@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+<head>
+    <title>Dados do Atestado</title>
+</head>
+<body>
+    <h1>Dados do Atestado</h1>
+    <form action="GerarAtestado" method="post">
+        <label for="medico">Nome do Medico:</label>
+        <input type="text" id="medico" name="medico" required><br>
+        
+        <label for="paciente">Nome do Paciente:</label>
+        <input type="text" id="paciente" name="paciente" required><br>
+        
+        <label for="endereco">Endereco do Paciente:</label>
+        <input type="text" id="endereco" name="endereco" required><br>
+        
+        <label for="cidade">Cidade do Paciente:</label>
+        <input type="text" id="cidade" name="cidade" required><br>
+        
+        <label for="doenca">Tipo de Doenca:</label>
+        <select id="doenca" name="doenca">
+            <option value="1">Febre</option>
+            <option value="2">Dor no Corpo</option>
+            <option value="3">Tontura</option>
+            <option value="4">Perna Quebrada</option>
+            <option value="5">Dor na Coluna</option>
+        </select>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
