@@ -48,7 +48,7 @@ public class GerarAtestadoServlet extends HttpServlet {
         out.println("<title>Atestado Médico</title>");
         out.println("</head>");
         out.println("<body>");
-        out.println("<h1><b>LOGO\n</b></h1><h2><b>\nATESTADO\n</b></h2>");
+        out.println("LOGO\n\nATESTADO\n");
         out.println("Atesto para devido fins que " + paciente + ", residente e domiciliado(a) à " + endereco +
                     " não se encontra em condições de trabalho por " + numeroDiasAfastamento + " dia(s).");
         out.println("<br>" + cidade + " - " + dataAtualFormatada);
